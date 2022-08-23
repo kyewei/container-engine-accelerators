@@ -1,9 +1,9 @@
 name: Go lint and test
 on:
   push:
-    branches: [ "gh_actions_go_tests" ]
+    branches: 
+      - master
   pull_request:
-    branches: [ "gh_actions_go_tests" ]
 jobs:
   build:
     runs-on: ubuntu-latest
